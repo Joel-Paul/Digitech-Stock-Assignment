@@ -1,0 +1,11 @@
+Category,Holding time (days),Delivery times
+grocery,5,1
+grocery_root,10,3
+Smallgoods,3,1
+Bakery_fresh,2,1
+Bakery_packaged,3,1
+dairy,3,1
+frozen,180,28
+packaged food,180,14
+tinned food,730,1
+other,n/a,

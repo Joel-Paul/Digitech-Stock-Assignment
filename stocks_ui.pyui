@@ -1,0 +1,262 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {480, 480}}",
+        "class" : "View",
+        "attributes" : {
+          "frame" : "{{190, 110}, {100, 100}}",
+          "background_color" : "RGBA(0.910377,0.910377,0.910377,1.000000)",
+          "class" : "View",
+          "name" : "background",
+          "uuid" : "0F8226D7-AF08-4B29-8907-BD6A4C10170D"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 80}, {300, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "D8A0C9D3-071C-4E78-87FE-40205253E426",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "number_of_lines" : 1,
+          "border_width" : 0,
+          "custom_attributes" : "",
+          "alignment" : "left",
+          "text" : "    Days Simulated",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "lbl_estimate",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {300, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "D8A0C9D3-071C-4E78-87FE-40205253E426",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "number_of_lines" : 1,
+          "border_width" : 0,
+          "custom_attributes" : "",
+          "alignment" : "left",
+          "text" : "    Save Daily Stocks",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "lbl_daily",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{315, 8}, {150, 52}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "23D0C76D-B735-4968-825B-D6573D1D7273",
+          "font_size" : 16,
+          "corner_radius" : 8,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 1,
+          "title" : "Calculate Stocks",
+          "action" : "calculate_stocks",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "btn_calculate",
+          "flex" : ""
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{230, 4.5}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "switch_daily",
+          "frame" : "{{215, 145}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch_daily",
+          "uuid" : "52DFF50A-9AE9-4232-B875-EC61BAFB4DD6"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 40}, {300, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "D8A0C9D3-071C-4E78-87FE-40205253E426",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "number_of_lines" : 1,
+          "border_width" : 0,
+          "custom_attributes" : "",
+          "alignment" : "left",
+          "text" : "    Save Orders",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "lbl_order",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{230, 44.5}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "uuid" : "52DFF50A-9AE9-4232-B875-EC61BAFB4DD6",
+          "frame" : "{{215, 145}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch_order",
+          "action" : "switch_order"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{230, 84.5}, {51, 31}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "BA03692A-B77D-4328-AF89-FC6BFB2A53D5",
+          "frame" : "{{140, 64}, {200, 32}}",
+          "secure" : false,
+          "action" : "estimate_value",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "text" : "",
+          "placeholder" : "0",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "txt_estimate",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{8, 408}, {464, 64}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "07CD7E64-31AC-47F4-B4C5-77C369559BA8",
+          "corner_radius" : 8,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{165, 84}, {150, 32}}",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 1,
+          "alignment" : "center",
+          "text" : "",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "lbl_output",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{0, 0}, {500, 2000}}",
+            "class" : "TextView",
+            "attributes" : {
+              "uuid" : "27C1230E-3F5C-4589-8397-09F06A594994",
+              "font_size" : 17,
+              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "frame" : "{{150, 400}, {200, 200}}",
+              "editable" : false,
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_name" : "<System>",
+              "spellchecking_type" : "default",
+              "class" : "TextView",
+              "name" : "textview",
+              "flex" : "WH"
+            },
+            "selected" : false
+          }
+        ],
+        "frame" : "{{8, 128}, {464, 272}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "frame" : "{{80, 80}, {320, 320}}",
+          "uuid" : "F57C9FD4-64F6-4C3F-A240-7D48021C5227",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "content_height" : 2000,
+          "class" : "ScrollView",
+          "content_width" : 500,
+          "name" : "scrollview"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{315, 68}, {150, 52}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "23D0C76D-B735-4968-825B-D6573D1D7273",
+          "flex" : "",
+          "corner_radius" : 8,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 1,
+          "title" : "Save to File",
+          "action" : "save_stocks",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "btn_save",
+          "font_size" : 16
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Stocks Simulator",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
