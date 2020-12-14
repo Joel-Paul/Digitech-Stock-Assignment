@@ -14,10 +14,13 @@ If desired, future sales can be estimated and simulated for a specified number o
 `stocks_text.py` uses both these scripts to obtain the list of what items should be ordered when, so that none of the produce goes out of stock.
 This is outputted to the screen.
 
+`stocks_ui.py` Works similarly to `stocks_text.py`, however it has a UI interface, some options to change the number of days simulated, and options to save the data.
+This script will only work if you are running it using [Pythonista 3](https://apps.apple.com/us/app/pythonista-3/id1085978097), as it requires the `ui` module provided by it.
+
 This program was originally made using Pythonista 3 for iOS (https://apps.apple.com/us/app/pythonista-3/id1085978097).
 
 ## Running
 * Run `python stock_text.py` in command prompt.
 
-**Note:** `stock_ui.py` requires the `ui` module, which is provided by [Pythonista](https://apps.apple.com/us/app/pythonista-3/id1085978097).
-If you are using Pythonista, you also have the option to use this script instead.
+**Note:** `stock_ui.py` requires the `ui` module, which is provided by [Pythonista 3](https://apps.apple.com/us/app/pythonista-3/id1085978097).
+If you are using [Pythonista 3](https://apps.apple.com/us/app/pythonista-3/id1085978097), you also have the option to use this script instead.
